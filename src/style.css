@@ -1,0 +1,51 @@
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: min(800px, calc(100% - 32px));
+  margin: 40px auto;
+}
+
+.user-list {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.user-card {
+  padding: 16px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.user-card h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: 600;
+}
